@@ -1,0 +1,67 @@
+Number of closures found in xrays/1/1.log: 3
+Number of analyzed closures in xrays/1/1.log: 3
+=================================
+Extracted information from xrays/1/1.log:
+=================================
+closure com/companyx/datascience/xxxx/ingestion/Ingestion$$anonfun$1:
+
+PhysPlanId: 0 StageId: 1 StageName: MapElements
+PhysPlanId: 1 StageId: 1 StageName: MapElements
+Summary of method calls:
+	java/lang/String indexOf
+	scala/runtime/AbstractFunction1 <init>
+	java/lang/Object <init>
+	scala/Product$class $init$
+	java/lang/Integer valueOf
+	java/lang/String trim
+	java/util/Map get
+	java/lang/IllegalArgumentException <init>
+	java/lang/String toUpperCase
+	java/lang/Character charCount
+	java/lang/String replaceAll
+	java/io/Reader read
+	scala/util/Try map
+	scala/Option getOrElse
+	scala/util/Try$ apply
+	scala/util/Try toOption
+	java/lang/String length
+	java/lang/Short shortValue
+	java/lang/String charAt
+	java/lang/Integer toHexString
+	java/io/Writer write
+	java/lang/Character codePointAt
+	java/io/Reader <init>
+	java/lang/String valueOf
+	scala/runtime/AbstractFunction0 <init>
+	java/lang/StringBuilder append
+	java/lang/StringBuilder <init>
+	java/lang/StringBuilder toString
+=================================
+closure com/companyx/datascience/xxxx/ingestion/Ingestion$$anonfun$ingest$2:
+
+PhysPlanId: 0 StageId: 1 StageName: Filter
+PhysPlanId: 1 StageId: 1 StageName: Filter
+Summary of method calls:
+	scala/Option map
+	scala/runtime/AbstractFunction1 <init>
+	scala/runtime/BoxesRunTime boxToBoolean
+	scala/Option exists
+=================================
+closure com/companyx/datascience/xxxx/ingestion/Ingestion$$anonfun$ingest$1:
+
+PhysPlanId: 0 StageId: 1 StageName: MapElements
+PhysPlanId: 1 StageId: 1 StageName: MapElements
+Summary of method calls:
+	java/lang/Object equals
+	scala/runtime/AbstractFunction1 <init>
+	java/lang/Math abs
+	scala/runtime/BoxesRunTime unboxToFloat
+	scala/Product$class $init$
+	java/lang/Object <init>
+	scala/Some x
+	scala/runtime/AbstractFunction0 <init>
+	scala/Tuple2 _1
+	scala/runtime/BoxesRunTime boxToFloat
+	scala/Tuple2 _2
+	scala/Some <init>
+	scala/Tuple2 <init>
